@@ -1,0 +1,14 @@
+.test-container{
+    position: absolute;
+    /* background-color: #fff; */
+    height: 85vh;
+    width: 79vw;
+    right: 3rem;
+    bottom: 1rem;
+    padding: 1rem;
+    overflow: scroll;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

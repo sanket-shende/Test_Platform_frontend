@@ -1,0 +1,26 @@
+.createtestcard-container h2{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.Test-card{
+    background-color: #4E4F4F;
+    height: auto;
+    width: 23rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.Test-card .icon{
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.Test-card i {
+    font-size: 10rem;
+}

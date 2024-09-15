@@ -1,0 +1,23 @@
+.topbar{
+    width: 83%;
+    background-color: #4E4F4F;
+    position: absolute;
+    Right: 1rem;
+    top: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.fa-user{
+    float: right;
+   font-size: 1.3rem;
+   margin-right: 1rem;
+}
+
+.topbar button{
+    float: right;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}

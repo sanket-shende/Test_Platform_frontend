@@ -1,0 +1,16 @@
+
+.RowTestCard h2{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.RowTestCard .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* .RowTestCard {
+    background-color: #a75959;
+} */

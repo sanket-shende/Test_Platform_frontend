@@ -1,0 +1,22 @@
+.testContainer{
+    background: #3c3a3a;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 90rem; /* Increase max-width here */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testContainer .que{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.testContainer .opt{
+    background-color: #686767;
+    border-radius: 10px;
+    padding: 0.5rem;
+}

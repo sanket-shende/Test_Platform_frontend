@@ -1,0 +1,83 @@
+.que-topbar{
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.que-type, .mark{
+    background-color:#000;
+}
+.mark{
+    width: 5rem;
+    border: 1px solid #fff;
+}
+
+.que-type option {
+    background-color: #639FBF;
+    color: #fff;
+}
+
+.main-que{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-que input[type=text]{
+    background-color:#000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0.3rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.main-que .options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.main-que .options .option {
+    display: flex;
+    width: 35rem;
+    gap: 1rem;
+}
+
+.main-que .opt{
+    width: 30rem;
+}
+
+.main-que .quetion{
+    margin-bottom: 1rem;
+}
+
+.question{
+    font-size: 1rem;
+    height: 3rem;
+    min-height: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type=checkbox]{
+    background-color: #000;
+}
+
+button[type=button]{
+    background-color: #3d17e9;
+    padding: 0rem;
+}
+
+.ind-mark{
+    background-color: #000;
+    border: 1px solid #fff;
+}

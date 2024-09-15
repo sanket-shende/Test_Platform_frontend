@@ -1,0 +1,72 @@
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Optional: light background for better contrast */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transform: translateY(25%);
+}
+
+.container form {
+    background: #3c3a3a;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Increase max-width here */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .inputs-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff; /* Optional: ensure text is visible on dark background */
+}
+
+.inputs-container label {
+    font-weight: bold;
+    padding: 1rem 0;
+    color: #fff; /* Optional: ensure label text is visible */
+}
+
+.login-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    max-width: 600px; /* Increase max-width here */
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.inputs-container {
+    padding: 1rem;
+}
+
+.container form span span {
+    color: #007bff;
+}
+
+/* Optional: Media query for smaller screens */
+@media (max-width: 768px) {
+    .container form {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+}
+

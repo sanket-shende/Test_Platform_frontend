@@ -1,0 +1,14 @@
+.Testcard{
+    background-color: #4E4F4F;
+    height: auto;
+    width: 23rem;
+    border-radius: 10px;
+    padding: 1rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.Testcard img{
+    width: 100%;
+    border-radius: 10px;
+}
