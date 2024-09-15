@@ -11,7 +11,7 @@ import {
 import Home from "./pages/Home.jsx";
 import MyTest from "./pages/MyTest.jsx";
 import CreateTest from "./pages/CreateTest.jsx";
-import CreateQue from "./pages/Createque.jsx";
+import CreateQue from "./pages/CreateQue.jsx";
 import GiveTest from "./pages/GiveTest.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
