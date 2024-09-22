@@ -37,7 +37,7 @@ function GiveTest() {
 
     const handleSubmit = async () => {
 		try {
-			await axios.post(`http://localhost:8080/api/v1/test/${id}/check-test`, {
+			await axios.post(`/api/v1/test/${id}/check-test`, {
 				answers, id
 			});
 		} catch (error) {

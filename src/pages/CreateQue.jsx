@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./CreateQue.css";
-import { Question } from "../../../backEnd/src/models/question.model.jsx";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
@@ -60,7 +59,7 @@ const CreateQue = () => {
 
 		try {
 			const response = await axios.post(
-				"http://localhost:8080/api/v1/test/subtest-create",
+				"/api/v1/test/subtest-create",
 				{ questions, queType, mark, testId }
 			);
             Cookies.remove("TestId");

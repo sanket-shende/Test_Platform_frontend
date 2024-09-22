@@ -15,7 +15,7 @@ function ShowTest() {
 		const getTest = async () => {
 			try {
 				const response = await axios.post(
-					`http://localhost:8080/api/v1/test/${id}/show-test`
+					`/api/v1/test/${id}/show-test`
 				);
                 setTestData(response.data.data);
 			} catch (error) {

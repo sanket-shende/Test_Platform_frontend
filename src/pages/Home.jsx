@@ -17,7 +17,7 @@ function Home() {
 		const fetchData = async () => {
 			try {
 				const response = await axios.post(
-					"http://localhost:8080/api/v1/test/getalltest"
+					"/api/v1/test/getalltest"
 				);
 				// Update state with fetched data
 				setData(response.data.data);

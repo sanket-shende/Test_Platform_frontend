@@ -44,7 +44,7 @@ const TestForm = () => {
 
 		try {
 			const response = await axios.post(
-				"http://localhost:8080/api/v1/test/create",
+				"/api/v1/test/create",
 		        { title: title , description: description, validity: validity, status: status, price: price, paid: paid }
 			);
             const testId = response.data.data._id 

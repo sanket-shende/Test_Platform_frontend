@@ -30,7 +30,7 @@ function Signup() {
 
 		try {
 			const response = await axios.post(
-				"http://localhost:8080/api/v1/users/register",
+				"/api/v1/users/register",
                 {username, email, password}
 			);
             navigate("/")

@@ -29,11 +29,10 @@ function Login() {
 
 		try {
 			const response = await axios.post(
-				"http://localhost:8080/api/v1/users/login",
+				"/api/v1/users/login",
                 {email, password}
 			);
             const user = response.data.data.user._id
-            Cookies.set("User", user, { expires: 7, path: "/" });
             setUser(true);
             navigate("/")
 		} catch(error) {
